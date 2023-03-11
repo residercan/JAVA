@@ -1,0 +1,36 @@
+package day18arraylistspassbyvalue;
+
+public class PostPreIncrementDecrement {
+
+    public static void main(String[] args) {
+
+        //Post increment sonra artırınız Pre Increment önce artırınız demektir.
+        //Post Increment
+        int a = 5;
+        int b = a++;
+        System.out.println(b);//5
+        System.out.println(a);//6
+
+        //Pre Increment
+
+        int c = 10;
+        int d = ++c;
+        System.out.println(d);//11
+        System.out.println(c);//11
+
+        //Post Decrement
+
+        int e = 20;
+        int f = e--;
+        System.out.println(f);//20
+        System.out.println(e);//19
+
+        //Pre Decrement
+
+        int g = 15;
+        int h = --g;
+        System.out.println(h);//14
+        System.out.println(g);//14
+
+    }
+}
